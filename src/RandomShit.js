@@ -2,10 +2,10 @@ import React from "react";
 
 
 const RandomShit = props=>{
-    <i class="arrow right icon"></i>
+    <i className="arrow right icon"></i>
  return(<div>
      {props.large}
-     <i class="large arrow right icon"></i>
+     <i className="large arrow right icon"></i>
  </div>
  );
 }

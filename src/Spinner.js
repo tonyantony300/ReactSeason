@@ -4,8 +4,8 @@ import RandomShit from "./RandomShit";
 const Spinner = props=> {
 
   return(
-    <div class = "ui big active dimmer">
-    <div class = "ui big text loader"> {props.message} <br/> <RandomShit large='cock'/> </div>
+    <div className = "ui big active dimmer">
+    <div className = "ui big text loader"> {props.message} <br/> <RandomShit large='Please wait until the location is fetched'/> </div>
    </div>
 
   );
